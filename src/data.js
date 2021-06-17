@@ -13,53 +13,53 @@ const kddphotos = [
   {
     id: 1,
     name: thahabkdd,
-    image: "thahabkdd",
+    image: [thahabkdd],
   },
   {
     id: 2,
     name: berrykdd,
-    image: "beryykdd",
+    image: [berrykdd],
   },
   {
     id: 3,
     name: burgankdd,
-    image: "burgankdd",
+    image: [burgankdd],
   },
   {
     id: 4,
     name: columbiakdd,
-    image: "columbiakdd",
+    image: [columbiakdd],
   },
   {
     id: 5,
     name: failakakdd,
-    image: "failakakdd",
+    image: [failakakdd],
   },
   {
     id: 6,
     name: fethakdd,
-    image: "fethakdd",
+    image: [fethakdd],
   },
   {
     id: 7,
     name: lolokdd,
-    image: "lolobkdd",
+    image: [lolokdd],
   },
   {
     id: 8,
     name: mangokdd,
-    image: "mangokdd",
+    image: [mangokdd],
   },
-  {
-    id: 9,
-    name: sandwichkdd,
-    image: "sandwichkdd",
-  },
-  {
-    id: 10,
-    name: orangekdd,
-    image: "orangekdd",
-  },
+  //   {
+  //     id: 9,
+  //     name: sandwichkdd,
+  //     image: [sandwichkdd],
+  //   },
+  //   {
+  //     id: 10,
+  //     name: orangekdd,
+  //     image: [orangekdd],
+  //   },
 ];
 
 export default kddphotos;

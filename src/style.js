@@ -61,18 +61,31 @@ export const Movement = styled.img`
 `;
 
 export const ListWrap = styled.div`
-  display: flex;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
   align-items: center;
   justify-content: center;
+  float: center;
 `;
 
 export const CardWrapper = styled.div`
-  margin: 10px;
+  width: 25%;
   img {
     width: 200px;
     height: 200px;
   }
 `;
+
+export const CardflpStyle = {
+  border: "1px solid black",
+  padding: "20px",
+  margin: "20px",
+  width: "200px",
+  height: "300px",
+};
 
 // * {
 //     padding: 0;
