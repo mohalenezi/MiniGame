@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { GlobalStyle, Movement, Title } from "./style.js";
+import { ThemeProvider } from "styled-components";
+import CardList from "./components/CardList";
+import logo from "./images/thelogo.png";
+import "./style";
+import { useState } from "react";
+
+const theme = {
+  mainColor: "grey",
+  backgroundColor: "lightyellow",
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <div>
+          <Movement src={logo} alt="logo" />
+
+          <Title>
+            <p>Train your memory a day keeps the ALzheimer away</p>
+          </Title>
+        </div>
+        <CardList />
+      </ThemeProvider>
     </div>
   );
 }
