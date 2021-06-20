@@ -66,26 +66,21 @@ export const ListWrap = styled.div`
   grid-gap: 50px 100px;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
+  background: radial-gradient(lightyellow, #282c34);
   align-items: center;
   justify-content: center;
   float: center;
 `;
 
 export const CardWrapper = styled.div`
-  width: 25%;
+  width: 100%;
   img {
+    border: 15px solid black;
+    margin: 30px;
     width: 200px;
-    height: 200px;
+    height: 300px;
   }
 `;
-
-export const CardflpStyle = {
-  border: "1px solid black",
-  padding: "20px",
-  margin: "20px",
-  width: "200px",
-  height: "300px",
-};
 
 // * {
 //     padding: 0;
