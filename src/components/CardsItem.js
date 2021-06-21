@@ -11,10 +11,11 @@ const CardsItem = (props) => {
     props.firstClick === null
       ? props.setFirstClick(props.card)
       : props.setSecondClick(props.card);
+
     if (props.secondClick !== null)
       props.secondClick !== props.firstClick
-        ? setIsFlipped(false)
-        : setIsFlipped(true);
+        ? setIsFlipped(true)
+        : setIsFlipped(false);
   };
   return (
     <div>
